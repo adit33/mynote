@@ -1,0 +1,3 @@
+SELECT namadocument FROM `documents` 
+join approves on documents.documentid=approves.documentid 
+join users on documents.nip=6312036 where approves.status='belum'
